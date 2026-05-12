@@ -67,179 +67,187 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 # Screenshots and Evidence
 
-## Figure 1 — pwd Output (Current Working Directory)
+## Part 1.1 — pwd Output (Current Working Directory)
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part1_1_pwd.png
 
-Fig--_--------.png
-
----
-
-## Figure 2 — Inode Listing (ls -i) and Inode Explanation
-
-**Screenshot Filename:** Fig--_-------.png
-
-Fig--_--------.png
+![Pwd](Part1_1_pwd.png)
 
 ---
 
-## Figure 3 — Disk Usage (Human-Readable) using df -h
+## Part 1.2 — Inode Listing (ls -i) and Inode Explanation
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part1_2_inode.png
 
-Fig--_--------.png
-
----
-
-## Figure 4 — Creating Forensics_Lab Directory in Home Folder
-
-**Screenshot Filename:** Fig--_-------.png
-
-Fig--_--------.png
+![Inode](Part1_2_inode.png)
 
 ---
 
-## Figure 5 — Creating evidence.txt with echo
+## Part 1.3 — Disk Usage (Human-Readable) using df -h
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part1_3_disk.png
 
-Fig--_--------.png
-
----
-
-## Figure 6 — Copying evidence.txt to evidence_backup.txt
-
-**Screenshot Filename:** Fig--_-------.png
-
-Fig--_--------.png
+![Disk](Part1_3_disk.png)
 
 ---
 
-## Figure 7 — Renaming evidence_backup.txt to evidence_v2.txt using mv
+## Parts 1.4 & 1.5 — Creating Forensics_Lab Directory in Home Folder
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part1_4_create_folder.png
 
-Fig--_--------.png
+![Create Folder](Part1_4_create_folder.png)
 
----
+**Screenshot Filename:** Part1_5_cd.png
 
-## Figure 8 — Checking File Permissions (ls -l) and Identifying RWX Bits
-
-**Screenshot Filename:** Fig--_-------.png
-
-Fig--_--------.png
+![Cd](Part1_5_cd.png)
 
 ---
 
-## Figure 9 — grep Search for "Evidence" with Line Numbers
+## Part 1.6 — Creating evidence.txt with echo
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part1_6_echo.png
 
-Fig--_--------.png
-
----
-
-## Figure 10 — Searching /etc Files for the String "network"
-
-**Screenshot Filename:** Fig--_-------.png
-
-Fig--_--------.png
+![Echo](Part1_6_echo.png)
 
 ---
 
-## Figure 11 — Network Connectivity Test (ping)
+## Part 1.7 — Copying evidence.txt to evidence_backup.txt
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part1_7_copy.png
 
-Fig--_--------.png
-
----
-
-## Figure 12 — Listening TCP Ports (netstat -lnt)
-
-**Screenshot Filename:** Fig--_-------.png
-
-Fig--_--------.png
+![Copy](Part1_7_copy.png)
 
 ---
 
-## Figure 13 — Downloading a File using wget
+## Part 1.8 — Renaming evidence_backup.txt to evidence_v2.txt using mv
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part1_8_rename.png
 
-Fig--_--------.png
-
----
-
-## Figure 14 — Redirecting Standard Output (stdout) to root_list.txt
-
-**Screenshot Filename:** Fig--_-------.png
-
-Fig--_--------.png
+![Rename](Part1_8_rename.png)
 
 ---
 
-## Figure 15 — Redirecting Standard Error (stderr) to error_log.txt
+## Part 1.9 — Checking File Permissions (ls -l) and Identifying RWX Bits
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part1_9_permissions.png
 
-Fig--_--------.png
-
----
-
-## Figure 16 — Combining stdout and stderr into One File (2>&1)
-
-**Screenshot Filename:** Fig--_-------.png
-
-Fig--_--------.png
+![Permissions](Part1_9_permissions.png)
 
 ---
 
-## Figure 17 — Netcat Listener Setup (Evidence Transfer Concept)
+## Part 2.1 — grep Search for "Evidence" with Line Numbers
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part2_1_grep.png
 
-Fig--_--------.png
-
----
-
-## Figure 18 — Sending evidence.txt to Listener (Evidence Transfer Concept)
-
-**Screenshot Filename:** Fig--_-------.png
-
-Fig--_--------.png
+![Grep](Part2_1_grep.png)
 
 ---
 
-## Figure 19 — Verification that the File Was Received Correctly
+## Part 2.2 — Searching /etc Files for the String "network"
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part2_2_search_etc.png
 
-Fig--_--------.png
-
----
-
-## Figure 20 — Windows Evidence File Creation (Challenge Scenario)
-
-**Screenshot Filename:** Fig--_-------.png
-
-Fig--_--------.png
+![Search Etc](Part2_2_search_etc.png)
 
 ---
 
-## Figure 21 — Kali Listener for Windows Acquisition (Challenge Scenario)
+## Part 2.3 — Network Connectivity Test (ping)
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part2_3_ping.png
 
-Fig--_--------.png
+![Ping](Part2_3_ping.png)
 
 ---
 
-## Figure 22 — Viewing Acquired Evidence on Kali (cat Verification)
+## Part 2.4 — Listening TCP Ports (netstat -lnt)
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Part2_4_ports.png
 
-Fig--_--------.png
+![Ports](Part2_4_ports.png)
+
+---
+
+## Part 2.5 — Downloading a File using wget
+
+**Screenshot Filename:** Part2_5_wget.png
+
+![Wget](Part2_5_wget.png)
+
+---
+
+## Part 3.1 — Redirecting Standard Output (stdout) to root_list.txt
+
+**Screenshot Filename:** Part3_1_stdout.png
+
+![Stdout](Part3_1_stdout.png)
+
+---
+
+## Part 3.2 — Redirecting Standard Error (stderr) to error_log.txt
+
+**Screenshot Filename:** Part3_2_error_content.png
+
+![Error Content](Part3_2_error_content.png)
+
+**Screenshot Filename:** Part3_2_error_created.png
+
+![Error Created](Part3_2_error_created.png)
+
+---
+
+## Part 4.1 — Netcat Listener Setup (Evidence Transfer Concept)
+
+**Screenshot Filename:** Part4_1_listener.png
+
+![Listener](Part4_1_listener.png)
+
+---
+
+## Part 4.2 — Sending evidence.txt to Listener (Evidence Transfer Concept)
+
+**Screenshot Filename:** Part4_2_sender.png
+
+![Sender](Part4_2_sender.png)
+
+---
+
+## Part 4.3 — Verification that the File Was Received Correctly
+
+**Screenshot Filename:** Part4_3_verify.png
+
+![Verify](Part4_3_verify.png)
+
+---
+
+## Part 5.1 — Windows Evidence File Creation (Challenge Scenario)
+
+**Screenshot Filename:** Part5_1_windows_file_created.png
+
+![Windows File Created](Part5_1_windows_file_created.png)
+
+---
+
+## Part 5.2 — Kali Listener for Windows Acquisition (Challenge Scenario)
+
+**Screenshot Filename:** Part5_2_kali_listener.png
+
+![Kali Listener](Part5_2_kali_listener.png)
+
+---
+
+## Part 5.3 — Viewing Acquired Evidence on Kali (cat Verification)
+
+**Screenshot Filename:** Part5_3_windows_send.png
+
+![Windows Send](Part5_3_windows_send.png)
+
+---
+
+## Part 5.4 — Viewing Acquired Evidence on Kali (cat Verification)
+
+**Screenshot Filename:** Part5_4_verify.png
+
+![Verify](Part5_4_verify.png)
 
 ---
 
@@ -355,12 +363,10 @@ A file was created on a Windows machine and had to be acquired remotely on Kali 
 ### Windows Side (Creation + Send)
 - Created the evidence file with a greeting message.
 - Sent the file content over the network to the Kali listener.
-> Commands redacted here for safety — paste your exact commands from screenshots if required by your instructor.
 
 ### Kali Side (Receive + Verify)
 - Started a listener to save incoming data into evidence_from_windows.txt.
 - Verified the received content using cat evidence_from_windows.txt.
-> Commands redacted here for safety — paste your exact commands from screenshots if required by your instructor.
 
 **Finding:** The file content was successfully displayed on Kali, confirming that remote acquisition was completed and verified.
 
