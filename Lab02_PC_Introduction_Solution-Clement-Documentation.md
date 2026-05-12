@@ -14,7 +14,7 @@
 
 # Executive Summary (150–200 words)
 
-This lab introduced the basic structure of a PC system and demonstrated how disk and partition information can be examined at a low level for digital forensics. Using Oracle VirtualBox with a Kali-Forensics VM, I identified disks and partitions with tools such as `lsblk` and `fdisk`, then captured raw disk data from Sector 0 (the MBR) using `dd` and examined the bytes in hex using `xxd` and WinHex.
+This lab introduced the basic structure of a PC system and demonstrated how disk and partition information can be examined at a low level for digital forensics. Using Oracle VirtualBox with a Kali-Forensics VM, I identified disks and partitions with tools such as lsblk and fdisk, then captured raw disk data from Sector 0 (the MBR) using dd and examined the bytes in hex using xxd and WinHex.
 
 I extracted key partition-table fields—Starting LBA and Total Sectors—and used Python 3 to convert little-endian hex values into decimal and compute partition sizes in GB using the 512-bytes-per-sector formula. I also completed a disk geometry (CHS) calculation to estimate total disk size and reviewed the PC boot process, including BIOS vs UEFI.
 
@@ -77,65 +77,117 @@ The main findings were that partition-size calculations match expected sizes whe
 
 ## Figure 1 — Kali VM Running + Terminal Opened
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Fig01_WinHex_PhysicalMediaList.png
 
-![-----](Fig--_--------.png)
+![WinHex_PhysicalMediaList](Fig01_WinHex_PhysicalMediaList.png)
 
 ---
 
 ## Figure 2 — Disk + Partition Identification (lsblk or fdisk -l)
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Fig02_MBR_Sector0.png
 
-![-----](Fig--_--------.png)
+![MBR_Sector0](Fig02_MBR_Sector0.png)
 
 ---
 
 ## Figure 3 — dd Capturing Sector 0 (MBR) to a File
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Fig03_Goto_01BE_PartitionTable.png
 
-![-----](Fig--_--------.png)
+![Goto_01BE_PartitionTable](Fig03_Goto_01BE_PartitionTable.png)
 
 ---
 
 ## Figure 4 — xxd Hex View Showing Partition Table Area (0x1BE – 0x1FD)
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Fig04_Partition1_StartLBA_01C6.png
 
-![-----](Fig--_--------.png)
+![Partition1_StartLBA_01C6](Fig04_Partition1_StartLBA_01C6.png)
 
 ---
 
 ## Figure 5 — Partition 1 Fields Highlight (Starting LBA + Total Sectors)
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Fig05_Partition1_TotalSectors_01CA.png
 
-![-----](Fig--_--------.png)
+![Partition1_TotalSectors_01CA](Fig05_Partition1_TotalSectors_01CA.png)
 
 ---
 
 ## Figure 6 — Partition 2 Fields Highlight (Starting LBA + Total Sectors)
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Fig06_Partition2_StartLBA_01D6.png
 
-![-----](Fig--_--------.png)
+![Partiton2_StartLBA_01D6](Fig06_Partition2_StartLBA_01D6.png)
 
 ---
 
 ## Figure 7 — Python Calculations (Hex → Decimal + Size in GB)
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Fig07_Partition2_TotalSectors_01DA.png
 
-![-----](Fig--_--------.png)
+![Partition2_TotalSectors_01DA](Fig07_Partition2_TotalSectors_01DA.png)
 
 ---
 
 ## Figure 8 — OS Verification (lsblk Size Output)
 
-**Screenshot Filename:** Fig--_-------.png
+**Screenshot Filename:** Fig08_VM_DiskPath_Metasploitable.png
 
-![-----](Fig--_--------.png)
+![VM_DiskPath_Metasploitable](Fig08_VM_DiskPath_Metasploitable.png)
+
+---
+
+## Figure 10, 11 & 12 — Partition Table in Hex
+
+**Screenshot Filename:** Fig10_WinHex_OpenVMdisk_ReadOnly.png
+
+![WinHex_OpenVMdisk_ReadOnly](Fig10_WinHex_OpenVMdisk_ReadOnly.png)
+
+**Screenshot Filename:** Fig11_VM_Sector0_MBR.png
+
+![VM_Sector0_MBR](Fig11_VM_Sector0_MBR.png)
+
+**Screenshot Filename:** Fig12_VM_WinHex_LicenseRestriction.png
+
+![VM_WinHex_LicenseRestriction](Fig12_VM_WinHex_LicenseRestriction.png)
+
+**Screenshot Filename:** Fig13_RAW_Sector0.png
+
+![RAW_Sector0](Fig13_RAW_Sector0.png)
+
+---
+
+## Figure 14 — Partition 1 StartLBA 01C6
+
+**Screenshot Filename:** Fig14_RAW_P1_StartLBA_01C6.png
+
+![RAW_P1_StartLBA_01C6](Fig14_RAW_P1_StartLBA_01C6.png)
+
+---
+
+## Figure 15 — Partition 1 Total Sectors 01CA
+
+**Screenshot Filename:** Fig15_RAW_P1_TotalSectors_01CA.png
+
+![RAW_P1_TotalSectors_01CA](Fig15_RAW_P1_TotalSectors_01CA.png)
+
+---
+
+## Figure 16 — Partition 2 StartLBA 01D6
+
+**Screenshot Filename:** Fig16_RAW_P2_StartLBA_01D6.png
+
+![RAW_P2_StartLBA_01D6](Fig16_RAW_P2_StartLBA_01D6.png)
+
+---
+
+## Figure 17 — Partition 2 Total Sectors 01DA
+
+**Screenshot Filename:** Fig17_RAW_P2_TotalSectors_01DA.png
+
+![RAW_P2_TotalSectors_01DA](Fig17_RAW_P2_TotalSectors_01DA.png)
 
 ---
 
