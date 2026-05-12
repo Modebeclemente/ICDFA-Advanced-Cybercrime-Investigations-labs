@@ -9,7 +9,6 @@
 | Course Name | Advanced Cybercrime Investigation |
 | Instructor Name | Mr. Aminu Idris |
 | Date of Submission | 8 May 2026 |
-| Version | 1.0 |
 
 ---
 
@@ -39,25 +38,23 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 - Oracle VirtualBox
 - Kali-Forensics Linux VM
 - Linux CLI tools:
-  - `bash`
-  - `printf`
-  - `xxd`
-  - `date`
-  - `md5sum`
-  - `sha256sum`
+  - bash
+  - printf
+  - xxd
+  - date
+  - md5sum
+  - sha256sum
 - Python 3
 - Instructor-provided slide deck:
-  - `0_Number_Systems.pptx`
+  - 0_Number_Systems.pptx
 
 ---
 
 # Workspace / Evidence Storage
 
-```bash
 /media/sf_Lab01_NumberSystems/
 /media/sf_Lab01_NumberSystems/Screenshots/
 /media/sf_Lab01_NumberSystems/Notes/
-```
 
 ---
 
@@ -66,7 +63,7 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 1. Started the Kali-Forensics VM in VirtualBox.
 2. Opened the terminal and verified Python 3 installation.
 3. Confirmed the shared folder mount path.
-4. Created and verified the `Screenshots` and `Notes` folders.
+4. Created and verified the Screenshots and Notes folders.
 5. Performed manual number system conversions.
 6. Verified conversions using Linux CLI commands and Python.
 7. Completed ASCII, timestamp, endianness, and hashing exercises.
@@ -76,83 +73,87 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 
 # Screenshots and Evidence
 
-## Figure 1 — Kali VM Started and Terminal Opened
+## Figure 1 — Kali VM Started
 
-**Screenshot Filename:** `Fig01_KaliVMStarted.png`
+**Screenshot Filename:** Fig01_KaliBooted.png
 
-```markdown
-![Figure 1 - Kali VM Started](Screenshots/Fig01_KaliVMStarted.png)
-```
+![Kali Booted](Fig01_KaliBooted.png)
 
 ---
 
-## Figure 2 — Python Version Verification
+## Figure 2 — Terminal Opened
 
-**Screenshot Filename:** `Fig02_CheckPythonVersion.png`
+**Screenshot Filename:** Fig02_TerminalOpened.png
 
-```markdown
-![Figure 2 - Python Version](Screenshots/Fig02_CheckPythonVersion.png)
-```
+![TerminalOpened](Fig02_TerminalOpened.png)
 
 ---
 
-## Figure 3 — Shared Folder Verification
+## Figure 3 — Python Version Verification Output
 
-**Screenshot Filename:** `Fig03_SharedFolderExists.png`
+**Screenshot Filename:** Fig03_PythonVersion.png
 
-```markdown
-![Figure 3 - Shared Folder Exists](Screenshots/Fig03_SharedFolderExists.png)
-```
+![Python Version](Fig03_PythonVersion.png)
 
 ---
 
-## Figure 4 — CLI Conversion Output
+## Figures 4 & 5 — CLI Conversions Output
 
-**Screenshot Filename:** `Fig04_CLIConversions.png`
+**Screenshot Filename:** Fig04_CLI_HexToDec_0x4F.png
 
-```markdown
-![Figure 4 - CLI Conversions](Screenshots/Fig04_CLIConversions.png)
-```
+![CLI_HexToDec_0x4F](Fig04_CLI_HexToDec_0x4F.png)
 
----
+**Screenshot Filename:** Fig05_CLI_Printf_1024_ToHex.png
 
-## Figure 5 — ASCII and xxd Output
+![CLI_Printf_1024_ToHex](Fig05_CLI_Printf_1024_ToHex.png)
 
-**Screenshot Filename:** `Fig05_ASCII_xxd_Output.png`
+**Screenshot Filename:** Fig05_Python_BinToDec_110011.png
 
-```markdown
-![Figure 5 - ASCII xxd Output](Screenshots/Fig05_ASCII_xxd_Output.png)
-```
+![Python_BinToDec_110011](Fig05_Python_BinToDec_110011.png)
 
 ---
 
-## Figure 6 — Unix Timestamp Conversion
+## Figures 6, 7 & 8 — ASCII and xxd Output
 
-**Screenshot Filename:** `Fig06_UnixTimestampConversion.png`
+**Screenshot Filename:** Fig06_Character_Conversion_man_ascii.png
 
-```markdown
-![Figure 6 - Unix Timestamp Conversion](Screenshots/Fig06_UnixTimestampConversion.png)
-```
+![Character_Conversion_man_ascii](Fig06_Character_Conversion_man_ascii.png)
 
----
+**Screenshot Filename:** Fig07_CLI_xxd_Forensics.png
 
-## Figure 7 — Python sys.byteorder Output
+![CLI_xxd_Forensics](Fig07_CLI_xxd_Forensics.png)
 
-**Screenshot Filename:** `Fig07_ByteOrderOutput.png`
+**Screenshot Filename:** Fig08_Python_chr_ord.png
 
-```markdown
-![Figure 7 - Byte Order Output](Screenshots/Fig07_ByteOrderOutput.png)
-```
+![Python_chr_ord](Fig08_Python_chr_ord.png)
 
 ---
 
-## Figure 8 — Hashing Output
+## Figures 9 & 10 — Unix Timestamp Conversion
 
-**Screenshot Filename:** `Fig08_HashOutput.png`
+**Screenshot Filename:** Fig09_CLI_Date_Timestamp.png
 
-```markdown
-![Figure 8 - Hash Output](Screenshots/Fig08_HashOutput.png)
-```
+![CLI_Date_Timestamp](Fig09_CLI_Date_Timestamp.png)
+
+**Screenshot Filename:** Fig10_Python_CurrentUTC.png
+
+![Python_CurrentUTC](Fig10_Python_CurrentUTC.png)
+
+---
+
+## Figure 11 — Python sys.byteorder Output
+
+**Screenshot Filename:** Fig11_Python_ByteOrder.png`
+
+![Python_ByteOrder](Fig11_Python_ByteOrder.png)
+
+---
+
+## Figure 12 — Hashing Output
+
+**Screenshot Filename:** Fig12_CLI_Hashes_DigitalEvidence.png
+
+![CLI_Hashes_DigitalEvidence](Fig12_CLI_Hashes_DigitalEvidence.png)
 
 ---
 
@@ -164,39 +165,31 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 
 ### 1. Convert `101101₂` to Decimal
 
-```text
 (1×2⁰) + (0×2¹) + (1×2²) + (1×2³) + (0×2⁴) + (1×2⁵)
 = 1 + 0 + 4 + 8 + 0 + 32
 = 45
-```
 
 ### 2. Convert `255₁₀` to Hexadecimal
 
-```text
 255 ÷ 16 = 15 remainder 15
 15 ÷ 16 = 0 remainder 15
 
 15 = F in hexadecimal
 
 Result = FF₁₆
-```
 
 ### 3. Convert `0x1A3₁₆` to Decimal
 
-```text
 (3×16⁰) + (10×16¹) + (1×16²)
 = 3 + 160 + 256
 = 419
-```
 
 ### 4. Convert `1110 1011₂` to Hexadecimal
 
-```text
 1110 = E
 1011 = B
 
 Result = EB₁₆
-```
 
 ---
 
@@ -204,39 +197,28 @@ Result = EB₁₆
 
 ### 5. Shell Arithmetic Conversion
 
-```bash
 echo $((0x4F))
-```
 
 Output:
 
-```text
 79
-```
 
 ### 6. Python Binary Conversion
 
-```python
+python
 int("110011", 2)
-```
 
 Output:
 
-```text
 51
-```
 
 ### 7. Linux printf Command
 
-```bash
 printf "%X\n" 1024
-```
 
 Output:
 
-```text
 400
-```
 
 ---
 
@@ -257,29 +239,22 @@ Output:
 
 ### 8. Hexadecimal Representation of "Forensics"
 
-```bash
 echo -n "Forensics" | xxd
-```
 
 Output:
 
-```text
 00000000: 466f 7265 6e73 6963 73
-```
 
 ### 9. Python chr() and ord()
 
-```python
+python
 chr(82)
 ord('Z')
-```
 
 Output:
 
-```text
 R
 90
-```
 
 ---
 
@@ -289,28 +264,20 @@ R
 
 ### 10. Unix Epoch Date
 
-```text
 00:00:00 UTC on 1 January 1970
-```
 
 ### 11. Convert Unix Timestamp
 
-```bash
 date -d @1714550400
-```
 
 Output:
 
-```text
 Wed 01 May 2024 08:00:00 UTC
-```
 
 ### 12. Current UTC Time in Python
 
-```python
 from datetime import datetime, timezone
 datetime.now(timezone.utc)
-```
 
 ---
 
@@ -319,15 +286,13 @@ datetime.now(timezone.utc)
 ### Difference Between Unix Epoch and Mac Cocoa Core Date
 
 - Unix Epoch starts at:
-  - `1 January 1970 UTC`
+  - 1 January 1970 UTC
 - Mac Cocoa Core Date starts at:
-  - `1 January 2001 UTC`
+  - 1 January 2001 UTC
 
 Difference:
 
-```text
 978,307,200 seconds
-```
 
 ### Why This Matters in Forensics
 
@@ -352,22 +317,16 @@ Investigators must always identify the correct timestamp format before analysis.
 
 ### 14. Little-endian Byte Order of `0x12345678`
 
-```text
 78 56 34 12
-```
 
 ### 15. Python sys.byteorder
 
-```python
 import sys
 sys.byteorder
-```
 
 Output:
 
-```text
 little
-```
 
 ---
 
@@ -375,30 +334,24 @@ little
 
 ## 16. Generate MD5 and SHA256 Hashes
 
-```bash
 echo -n "DigitalEvidence" | md5sum
 echo -n "DigitalEvidence" | sha256sum
-```
 
 ### MD5 Output
 
-```text
 3df79ba6a3504ef82b9ea1d8603097b8
-```
 
 ### SHA256 Output
 
-```text
 c590ad5eab615d1df0b9ea606c1a2a8d265067ad
-```
 
 ---
 
-## 17. Importance of `-n` with echo
+## 17. Importance of -n with echo
 
-The `-n` flag prevents `echo` from adding a newline character.
+The -n flag prevents echo from adding a newline character.
 
-Without `-n`, the newline becomes part of the hashed data, producing a completely different hash value.
+Without -n, the newline becomes part of the hashed data, producing a completely different hash value.
 
 ---
 
@@ -434,7 +387,7 @@ These concepts are directly applicable to real-world forensic analysis where inv
 
 # References
 
-- Idris, A. — `0_Number_Systems.pptx`
+- Idris, A. — 0_Number_Systems.pptx
 - GNU Bash Documentation
 - Python 3 Documentation
 - Kali Linux Documentation
