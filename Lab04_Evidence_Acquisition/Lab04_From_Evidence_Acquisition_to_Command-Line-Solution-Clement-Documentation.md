@@ -8,7 +8,7 @@
 | Student ID | aci2616123@icdfa.edu.ng |
 | Course Code | ACI801 |
 | Course Name | Introduction to Digital Forensics |
-| Lab Title | Lab 4 – Comprehensive Digital Forensics |
+| Lab Title | Lab 4 – From Evidence Acquisition to Command-Line Analysis |
 | Instructor Name | Mr. Aminu Idris, AMCPN |
 | Date of Submission | 16 May 2026 |
 | Tool Version (Autopsy) | 7.2.6 r172322 (Qt6.8.0 on Windows) |
