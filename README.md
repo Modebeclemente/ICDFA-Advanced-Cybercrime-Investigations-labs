@@ -157,7 +157,7 @@ over a network.
 - Integrity verification using hash values before and after acquisition
 
 📄 **Full Step‑by‑Step Documentation:**  
-[documentation.md](./documentation.md)
+[documentation.md](./Lab05_Forensic_USB_Image/Lab05_USB_ImageSolution-Clement-Documentation.md)
 
 📑 **Formal Lab Report:**  
 Lab05_USB_Image_Acquisition_Report_with_Screenshots_ClementModebe
@@ -181,50 +181,6 @@ Lab05_USB_Image_Acquisition_Report_with_Screenshots_ClementModebe
 - Verify evidence integrity by calculating and comparing hash values
 - Perform basic network-based acquisition/transfer while maintaining integrity
 - Document acquisition steps clearly with screenshots and reproducible commands
-
----
-
-### ✅ Lab 06 – Digital Evidence Search with a Pattern Matching Game (Regex)
-This lab focuses on searching and extracting digital evidence using pattern
-matching techniques. It emphasizes regular expressions (regex) with tools like
-grep, sed, and find to locate evidence in text, documents, and forensic images.
-
-**Topics covered:**
-- Evidence search goals (who, what, when, where, how) and why search matters
-- Regular expressions (regex) fundamentals and pattern matching concepts
-- Extracting evidence with grep (names, emails, phone numbers, IP addresses, MAC addresses)
-- Word boundaries, character classes, quantifiers, groups, and alternation in regex
-- Using advanced regex techniques (backreferences, lookahead, lookbehind)
-- File and directory searches using find (name, type, size, permissions, timestamps)
-- Understanding file timestamps (atime, mtime, ctime) and metadata-based searching
-- Searching inside document formats (e.g., extracting content from docx by unzipping and cleaning tags)
-- Searching inside folders and disk images using command-line workflows
-
-📄 **Full Step‑by‑Step Documentation:**  
-[documentation.md](./documentation.md)
-
-📑 **Formal Lab Report:**  
-Lab06_Digital_Evidence_Search_with_a_Pattern_Matching_Game_ClementModebe
-
----
-
-## 🧪 Tools and Environment
-- Kali Linux (Forensics VM) / Linux terminal
-- grep (including extended/Perl-compatible modes when needed)
-- sed (stream editing and cleaning extracted content)
-- find (metadata-based file searching)
-- unzip / archive utilities (for examining document formats and lab files)
-- Sample lab datasets (text files, folders, and disk images used for search practice)
-
----
-
-## 🎯 Learning Outcomes
-- Apply regex patterns to extract digital evidence from files and datasets
-- Use grep and sed together to filter and clean results for reporting
-- Search for files using metadata such as names, types, sizes, permissions, and timestamps
-- Interpret atime, mtime, and ctime correctly during evidence triage
-- Perform evidence searches across folders and disk images using repeatable CLI methods
-- Document findings clearly with screenshots and reproducible commands
 
 ---
 
