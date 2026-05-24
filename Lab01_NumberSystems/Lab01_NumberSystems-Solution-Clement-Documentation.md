@@ -77,7 +77,7 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 
 **Screenshot Filename:** Fig01_KaliBooted.png
 
-![Kali Booted](Fig01_KaliBooted.png)
+![Kali Booted](Screenshots/Fig01_KaliBooted.png)
 
 ---
 
@@ -85,7 +85,7 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 
 **Screenshot Filename:** Fig02_TerminalOpened.png
 
-![TerminalOpened](Fig02_TerminalOpened.png)
+![TerminalOpened](Screenshots/Fig02_TerminalOpened.png)
 
 ---
 
@@ -93,7 +93,7 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 
 **Screenshot Filename:** Fig03_PythonVersion.png
 
-![Python Version](Fig03_PythonVersion.png)
+![Python Version](Screenshots/Fig03_PythonVersion.png)
 
 ---
 
@@ -101,15 +101,15 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 
 **Screenshot Filename:** Fig04_CLI_HexToDec_0x4F.png
 
-![CLI_HexToDec_0x4F](Fig04_CLI_HexToDec_0x4F.png)
+![CLI_HexToDec_0x4F](Screenshots/Fig04_CLI_HexToDec_0x4F.png)
 
 **Screenshot Filename:** Fig05_CLI_Printf_1024_ToHex.png
 
-![CLI_Printf_1024_ToHex](Fig05_CLI_Printf_1024_ToHex.png)
+![CLI_Printf_1024_ToHex](Screenshots/Fig05_CLI_Printf_1024_ToHex.png)
 
 **Screenshot Filename:** Fig05_Python_BinToDec_110011.png
 
-![Python_BinToDec_110011](Fig05_Python_BinToDec_110011.png)
+![Python_BinToDec_110011](Screenshots/Fig05_Python_BinToDec_110011.png)
 
 ---
 
@@ -117,15 +117,15 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 
 **Screenshot Filename:** Fig06_Character_Conversion_man_ascii.png
 
-![Character_Conversion_man_ascii](Fig06_Character_Conversion_man_ascii.png)
+![Character_Conversion_man_ascii](Screenshots/Fig06_Character_Conversion_man_ascii.png)
 
 **Screenshot Filename:** Fig07_CLI_xxd_Forensics.png
 
-![CLI_xxd_Forensics](Fig07_CLI_xxd_Forensics.png)
+![CLI_xxd_Forensics](Screenshots/Fig07_CLI_xxd_Forensics.png)
 
 **Screenshot Filename:** Fig08_Python_chr_ord.png
 
-![Python_chr_ord](Fig08_Python_chr_ord.png)
+![Python_chr_ord](Screenshots/Fig08_Python_chr_ord.png)
 
 ---
 
@@ -133,11 +133,11 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 
 **Screenshot Filename:** Fig09_CLI_Date_Timestamp.png
 
-![CLI_Date_Timestamp](Fig09_CLI_Date_Timestamp.png)
+![CLI_Date_Timestamp](Screenshots/Fig09_CLI_Date_Timestamp.png)
 
 **Screenshot Filename:** Fig10_Python_CurrentUTC.png
 
-![Python_CurrentUTC](Fig10_Python_CurrentUTC.png)
+![Python_CurrentUTC](Screenshots/Fig10_Python_CurrentUTC.png)
 
 ---
 
@@ -145,7 +145,7 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 
 **Screenshot Filename:** Fig11_Python_ByteOrder.png`
 
-![Python_ByteOrder](Fig11_Python_ByteOrder.png)
+![Python_ByteOrder](Screenshots/Fig11_Python_ByteOrder.png)
 
 ---
 
@@ -153,7 +153,7 @@ Finally, I reviewed how data is stored in memory using endianness and validated 
 
 **Screenshot Filename:** Fig12_CLI_Hashes_DigitalEvidence.png
 
-![CLI_Hashes_DigitalEvidence](Fig12_CLI_Hashes_DigitalEvidence.png)
+![CLI_Hashes_DigitalEvidence](Screenshots/Fig12_CLI_Hashes_DigitalEvidence.png)
 
 ---
 
