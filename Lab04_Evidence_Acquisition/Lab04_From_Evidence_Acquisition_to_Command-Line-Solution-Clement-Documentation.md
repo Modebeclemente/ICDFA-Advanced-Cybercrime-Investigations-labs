@@ -203,12 +203,11 @@ D:\VM_Lab\ICDFA_Labs\ICDFA Study Material\ACI801 Digital Evidence Collection\ACI
 ### Lab04_Fig18 — Generating Autopsy report
 **Screenshot Filename:** Lab04_Screenshot_18.png
 
-!![Screenshot](Screenshots/Lab04_Fig17_KeywordResults.png)
+!![Screenshot](Screenshots/Lab04_Fig18_GenerateReport.png)
 
 ### Lab04_Fig19 — Report options/confirmation
 **Screenshot Filename:** Lab04_Screenshot_19.png
 
-!![Screenshot](Screenshots/Lab04_Fig18_GenerateReport.png)
 !![Screenshot](Screenshots/Lab04_Fig18i_GenerateReport.png)
 
 ## Part 3–4 — TSK (CLI)
@@ -216,7 +215,7 @@ D:\VM_Lab\ICDFA_Labs\ICDFA Study Material\ACI801 Digital Evidence Collection\ACI
 ### Lab04_Fig20 — fsstat output (file system statistics)
 **Screenshot Filename:** Lab04_Screenshot_20.png
 
-!![Screenshot](Screenshots/Lab04_Fig18i_GenerateReport.png)
+!![Screenshot](Screenshots/Lab04_Fig20_fsstat.png)
 
 ### Lab04_Fig21 — img_stat output (image details)
 **Screenshot Filename:** Lab04_Screenshot_21.png
@@ -226,42 +225,44 @@ D:\VM_Lab\ICDFA_Labs\ICDFA Study Material\ACI801 Digital Evidence Collection\ACI
 ### Lab04_Fig22 — fls -d output (deleted entries only)
 **Screenshot Filename:** Lab04_Screenshot_22.png
 
-!![Screenshot](Screenshots/Lab04_Fig20_fsstat.png)
+!![Screenshot](Screenshots/Lab04_Fig22_fls_DeletedOnly.png))
 
 ### Lab04_Fig23 — Deleted entries count (fls piped to wc -l)
 **Screenshot Filename:** Lab04_Screenshot_23.png
 
-!![Screenshot](Screenshots/Lab04_Fig21_fls_AllEntries.png)
+!![Screenshot](Screenshots/Lab04_Fig22i_DeletedCount_wc_l.png)
 
 ### Lab04_Fig24 — icat recovery of inode 15
 **Screenshot Filename:** Lab04_Screenshot_24.png
 
-!![Screenshot](Screenshots/Lab04_Fig22_fls_DeletedOnly.png)
+!![Screenshot](Screenshots/Lab04_Fig22i_DeletedCount_wc_l.png)
 
 ### Lab04_Fig25 — istat output (inode 15 metadata)
 **Screenshot Filename:** Lab04_Screenshot_25.png
 
-!![Screenshot](Screenshots/Lab04_Fig22i_DeletedCount_wc.png)
+!![Screenshot](Screenshots/Lab04_Fig23_icat_Ch01InChap01_inode15_to_recovered_file.png) 
 
 ### Lab04_Fig26 — Identify INCOME.XLS inode via fls/grep
 **Screenshot Filename:** Lab04_Screenshot_26.png
 
-!![Screenshot](Screenshots/Lab04_Fig23_icat_Ch01InChap01_inode15.png)
+!![Screenshot](Screenshots/Lab04_Fig24_istat_inode_metadata.png)
+!![Screenshot](Lab04_Fig25_INCOME_InodeIdentified.png)
 
 ### Lab04_Fig27 — Recover INCOME.XLS using icat
 **Screenshot Filename:** Lab04_Screenshot_27.png
 
-!![Screenshot](Screenshots/Lab04_Fig24_istat_inode_metadata.png)
+!![Screenshot](Screenshots/Lab04_Fig26_INCOME_icat_Recover.png)
 
 ### Lab04_Fig28 — Recover INCOME.XLS using blkcat
 **Screenshot Filename:** Lab04_Screenshot_28.png
 
-!![Screenshot](Screenshots/Lab04_Fig25_INCOME_InodeIdentified.png)
+!![Screenshot](Screenshots/Lab04_Fig28_INCOME_blkcat_Recover.png)
+!![Screenshot](Lab04_Fig27__INCOME_istat_Sectors.png)
 
 ### Lab04_Fig29 — sha256sum comparison (INCOME recoveries)
 **Screenshot Filename:** Lab04_Screenshot_29.png
 
-!![Screenshot](Screenshots/Lab04_Fig26_INCOME_icat_Recover.png)
+!![Screenshot](Screenshots/Lab04_Fig29_INCOME_HashCompare_SHA256.png)
 
 ### Lab04_Fig30 — losetup --partscan attaching image (read-only)
 **Screenshot Filename:** Lab04_Screenshot_30.png
