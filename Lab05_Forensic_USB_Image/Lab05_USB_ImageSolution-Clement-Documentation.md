@@ -9,7 +9,7 @@
 | Course Code | ACI801 Digital Evidence Collection |
 | Course Name | Introduction to Digital Forensics |
 | Instructor Name | Mr. Aminu Idris, AMCPN |
-| Lab Title | Lab 5 – USB Image Acquisition |
+| Lab Title | Lab 5 – USB Image Acquisition Across Windows and Linux Environments |
 | Date of Submission | 16 May 2026 |
 
 ---
