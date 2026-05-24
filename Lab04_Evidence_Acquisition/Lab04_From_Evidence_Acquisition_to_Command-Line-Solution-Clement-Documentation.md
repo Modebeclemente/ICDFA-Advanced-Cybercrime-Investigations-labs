@@ -110,194 +110,197 @@ D:\VM_Lab\ICDFA_Labs\ICDFA Study Material\ACI801 Digital Evidence Collection\ACI
 
 # Screenshots and Evidence (Placeholders)
 
+> **Note:** The original .docx contains embedded figures. This .txt version preserves the end-to-end structure using screenshot placeholders with consistent filenames.
+
 ## Part 2 — Autopsy (GUI)
 
 ### Lab04_Fig01 — Evidence image placed in workspace folder
 **Screenshot Filename:** Lab04_Screenshot_01.png
 
-![Screenshot](Lab04_Screenshot_01.png)
+!![Screenshot](Screenshots/Lab04_Fig01_EvidenceImageSaved.png)
 
 ### Lab04_Fig02 — Hash verification of evidence image
 **Screenshot Filename:** Lab04_Screenshot_02.png
 
-![Screenshot](Lab04_Screenshot_02.png)
+!![Screenshot](Screenshots/Lab04_Fig02_ImageHashVerification.png)
 
 ### Lab04_Fig03 — Autopsy home screen
 **Screenshot Filename:** Lab04_Screenshot_03.png
 
-![Screenshot](Lab04_Screenshot_03.png)
+!![Screenshot](Screenshots/Lab04_Fig03_AutopsyHome.png)
 
 ### Lab04_Fig04 — New case wizard
 **Screenshot Filename:** Lab04_Screenshot_04.png
 
-![Screenshot](Lab04_Screenshot_04.png)
+!![Screenshot](Screenshots/Lab04_Fig04_AutopsyNewCaseWizard.png)
 
 ### Lab04_Fig05 — Case details entered
 **Screenshot Filename:** Lab04_Screenshot_05.png
 
-![Screenshot](Lab04_Screenshot_05.png)
+!![Screenshot](Screenshots/Lab04_Fig05_NewCaseDetails.png)
 
 ### Lab04_Fig06 — Selecting disk image data source type
 **Screenshot Filename:** Lab04_Screenshot_06.png
 
-![Screenshot](Lab04_Screenshot_06.png)
+!![Screenshot](Screenshots/Lab04_Fig06_Disk_Image_or_VM_File_Data_Format.png)
 
 ### Lab04_Fig07 — Selecting the .dd image file
 **Screenshot Filename:** Lab04_Screenshot_07.png
 
-![Screenshot](Lab04_Screenshot_07.png)
+!![Screenshot](Screenshots/Lab04_Fig07_Choose_Image_File.png)
 
 ### Lab04_Fig08 — Adding raw (.dd) disk image
 **Screenshot Filename:** Lab04_Screenshot_08.png
 
-![Screenshot](Lab04_Screenshot_08.png)
+!![Screenshot](Screenshots/Lab04_Fig08_AddDataSourceRawDD.png)
 
 ### Lab04_Fig09 — Configuring ingest modules
 **Screenshot Filename:** Lab04_Screenshot_09.png
 
-![Screenshot](Lab04_Screenshot_09.png)
+!![Screenshot](Screenshots/Lab04_Fig09_ConfigureIngestWizard.png)
 
 ### Lab04_Fig10 — Data source added successfully
 **Screenshot Filename:** Lab04_Screenshot_10.png
 
-![Screenshot](Lab04_Screenshot_10.png)
+!![Screenshot](Screenshots/Lab04_Fig10_DataSourceAddedWizard.png)
 
 ### Lab04_Fig11 — Deleted files view
 **Screenshot Filename:** Lab04_Screenshot_11.png
 
-![Screenshot](Lab04_Screenshot_11.png)
+!![Screenshot](Screenshots/Lab04_Fig11_DeletedFilesView.png)
 
 ### Lab04_Fig12 — Tagging menu for evidence
 **Screenshot Filename:** Lab04_Screenshot_12.png
 
-![Screenshot](Lab04_Screenshot_12.png)
+!![Screenshot](Screenshots/Lab04_Fig12_TagMenu.png)
+!![Screenshot](/Screenshots/Lab04_Fig12i_TagMenu.png)
 
 ### Lab04_Fig13 — Tag applied to evidence item
 **Screenshot Filename:** Lab04_Screenshot_13.png
 
-![Screenshot](Lab04_Screenshot_13.png)
+!![Screenshot](Screenshots/Lab04_Fig12i_TagMenu.png)
 
 ### Lab04_Fig14 — Recover/Extract option
 **Screenshot Filename:** Lab04_Screenshot_14.png
 
-![Screenshot](Lab04_Screenshot_14.png)
+!![Screenshot](Screenshots/Lab04_Fig13_TagCreated.png)
 
 ### Lab04_Fig15 — Recovery destination/confirmation
 **Screenshot Filename:** Lab04_Screenshot_15.png
 
-![Screenshot](Lab04_Screenshot_15.png)
+!![Screenshot](Screenshots/Lab04_Fig15_RecoveryExport.png)
 
 ### Lab04_Fig16 — Keyword search configuration
 **Screenshot Filename:** Lab04_Screenshot_16.png
 
-![Screenshot](Lab04_Screenshot_16.png)
+!![Screenshot](Screenshots/Lab04_Fig15_RecoveryExport.png)
 
 ### Lab04_Fig17 — Keyword search results
 **Screenshot Filename:** Lab04_Screenshot_17.png
 
-![Screenshot](Lab04_Screenshot_17.png)
+!![Screenshot](Screenshots/Lab04_Fig16_KeywordResults.png)
 
 ### Lab04_Fig18 — Generating Autopsy report
 **Screenshot Filename:** Lab04_Screenshot_18.png
 
-![Screenshot](Lab04_Screenshot_18.png)
+!![Screenshot](Screenshots/Lab04_Fig17_KeywordResults.png)
 
 ### Lab04_Fig19 — Report options/confirmation
 **Screenshot Filename:** Lab04_Screenshot_19.png
 
-![Screenshot](Lab04_Screenshot_19.png)
+!![Screenshot](Screenshots/Lab04_Fig18_GenerateReport.png)
 
 ## Part 3–4 — TSK (CLI)
 
 ### Lab04_Fig20 — fsstat output (file system statistics)
 **Screenshot Filename:** Lab04_Screenshot_20.png
 
-![Screenshot](Lab04_Screenshot_20.png)
+!![Screenshot](Screenshots/Lab04_Fig18i_GenerateReport.png)
 
 ### Lab04_Fig21 — img_stat output (image details)
 **Screenshot Filename:** Lab04_Screenshot_21.png
 
-![Screenshot](Lab04_Screenshot_21.png)
+!![Screenshot](Screenshots/Lab04_Fig19_img_stat.png)
 
 ### Lab04_Fig22 — fls -d output (deleted entries only)
 **Screenshot Filename:** Lab04_Screenshot_22.png
 
-![Screenshot](Lab04_Screenshot_22.png)
+!![Screenshot](Screenshots/Lab04_Fig20_fsstat.png)
 
 ### Lab04_Fig23 — Deleted entries count (fls piped to wc -l)
 **Screenshot Filename:** Lab04_Screenshot_23.png
 
-![Screenshot](Lab04_Screenshot_23.png)
+!![Screenshot](Screenshots/Lab04_Fig21_fls_AllEntries.png)
 
 ### Lab04_Fig24 — icat recovery of inode 15
 **Screenshot Filename:** Lab04_Screenshot_24.png
 
-![Screenshot](Lab04_Screenshot_24.png)
+!![Screenshot](Screenshots/Lab04_Fig22_fls_DeletedOnly.png)
 
 ### Lab04_Fig25 — istat output (inode 15 metadata)
 **Screenshot Filename:** Lab04_Screenshot_25.png
 
-![Screenshot](Lab04_Screenshot_25.png)
+!![Screenshot](Screenshots/Lab04_Fig22i_DeletedCount_wc.png)
 
 ### Lab04_Fig26 — Identify INCOME.XLS inode via fls/grep
 **Screenshot Filename:** Lab04_Screenshot_26.png
 
-![Screenshot](Lab04_Screenshot_26.png)
+!![Screenshot](Screenshots/Lab04_Fig23_icat_Ch01InChap01_inode15.png)
 
 ### Lab04_Fig27 — Recover INCOME.XLS using icat
 **Screenshot Filename:** Lab04_Screenshot_27.png
 
-![Screenshot](Lab04_Screenshot_27.png)
+!![Screenshot](Screenshots/Lab04_Fig24_istat_inode_metadata.png)
 
 ### Lab04_Fig28 — Recover INCOME.XLS using blkcat
 **Screenshot Filename:** Lab04_Screenshot_28.png
 
-![Screenshot](Lab04_Screenshot_28.png)
+!![Screenshot](Screenshots/Lab04_Fig25_INCOME_InodeIdentified.png)
 
 ### Lab04_Fig29 — sha256sum comparison (INCOME recoveries)
 **Screenshot Filename:** Lab04_Screenshot_29.png
 
-![Screenshot](Lab04_Screenshot_29.png)
+!![Screenshot](Screenshots/Lab04_Fig26_INCOME_icat_Recover.png)
 
 ### Lab04_Fig30 — losetup --partscan attaching image (read-only)
 **Screenshot Filename:** Lab04_Screenshot_30.png
 
-![Screenshot](Lab04_Screenshot_30.png)
+!![Screenshot](Screenshots/Lab04_Fig27_INCOME_istat_Sectors.png)
 
 ### Lab04_Fig31 — lsblk output showing loop device mapping
 **Screenshot Filename:** Lab04_Screenshot_31.png
 
-![Screenshot](Lab04_Screenshot_31.png)
+!![Screenshot](Screenshots/Lab04_Fig28_placeholder.png)
 
 ### Lab04_Fig32 — Verifying loop device mapping
 **Screenshot Filename:** Lab04_Screenshot_32.png
 
-![Screenshot](Lab04_Screenshot_32.png)
+!![Screenshot](Screenshots/Lab04_Fig29_placeholder.png)
 
 ### Lab04_Fig33 — Creating mount point directory
 **Screenshot Filename:** Lab04_Screenshot_33.png
 
-![Screenshot](Lab04_Screenshot_33.png)
+!![Screenshot](Screenshots/Lab04_Fig30_placeholder.png)
 
 ### Lab04_Fig34 — Mounting loop device read-only
 **Screenshot Filename:** Lab04_Screenshot_34.png
 
-![Screenshot](Lab04_Screenshot_34.png)
+!![Screenshot](Screenshots/Lab04_Fig31_placeholder.png)
 
 ### Lab04_Fig35 — Verifying mounted contents (ls)
 **Screenshot Filename:** Lab04_Screenshot_35.png
 
-![Screenshot](Lab04_Screenshot_35.png)
+!![Screenshot](Screenshots/Lab04_Fig32_placeholder.png)
 
 ### Lab04_Fig36 — Running tsk_gettimes (new command) and previewing output
 **Screenshot Filename:** Lab04_Screenshot_36.png
 
-![Screenshot](Lab04_Screenshot_36.png)
+!![Screenshot](Screenshots/Lab04_Fig33_placeholder.png)
 
 ### Lab04_Fig37 — Unmounting and detaching loop device
 **Screenshot Filename:** Lab04_Screenshot_37.png
 
-![Screenshot](Lab04_Screenshot_37.png)
+!![Screenshot](Screenshots/Lab04_Fig34_placeholder.png)
 
 ---
 
@@ -354,25 +357,39 @@ A **bit-stream copy (image)** is a bit-by-bit copy of the original storage mediu
 ## Practical Commands Executed (with examples)
 
 ### 1) Image Details
+```bash
 img_stat /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd
+```
 
 ### 2) File System Statistics
+```bash
 fsstat /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd
+```
 
 ### 3) Listing Entries (Allocated + Deleted)
+```bash
 fls /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd
+```
 
 ### 4) Deleted Entries Only
+```bash
 fls -d /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd
+```
 
 ### 5) Deleted Count (example pattern)
+```bash
 fls -i raw -r -d /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd | wc -l
+```
 
 ### 6) Data Extraction (icat)
+```bash
 icat /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd 15 > recovered_file.txt
+```
 
 ### 7) Metadata Statistics (istat)
+```bash
 istat /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd 15
+```
 
 ---
 
@@ -381,25 +398,37 @@ istat /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/c
 ## Task 4.1 — Multi-Method File Recovery (INCOME.XLS)
 
 ### Step A: Identify inode
+```bash
 fls -r /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd | grep -i 'INCOME\.XLS'
+```
 
 ### Step B: Recover using icat
+```bash
 icat -i raw "/media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd" 13 > INCOME_icat.xls
+```
 
 ### Step C: Recover using istat + blkcat
 1) Record block list:
+```bash
 istat /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd 13
+```
 
 2) Extract blocks:
+```bash
 blkcat -i raw "/media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd" 285 27 > INCOME_blkcat.xls
+```
 
 ### Step D: Verify hashes match
+```bash
 sha256sum INCOME_icat.xls INCOME_blkcat.xls
+```
 
 ## Task 4.2 — Mounting the Image (Read-Only)
 
 ### Attach image to loop device
+```bash
 sudo losetup --partscan --find --show --read-only /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd
+```
 
 **Flag notes:**
 - **--partscan** scans the partition table and creates loop devices for partitions.
@@ -408,9 +437,11 @@ sudo losetup --partscan --find --show --read-only /media/sf_VM_Lab/ICDFA_Labs/co
 - **--read-only** prevents writes to the evidence image.
 
 ### Create mount point + mount read-only
+```bash
 sudo mkdir -p /tmp/usb
 sudo mount -t vfat -o ro /dev/loop0 /tmp/usb
 ls -al /tmp/usb
+```
 
 ---
 
@@ -425,11 +456,14 @@ tsk_gettimes examines a file system in a disk image and outputs timestamp metada
 - Disk image path (single image file, or multiple segments if split)
 
 ### Example usage (timeline body file)
+```bash
 tsk_gettimes -i raw -z UTC \
-  /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd \> /tmp/timeline.body
+  /media/sf_VM_Lab/ICDFA_Labs/computerforensics_investigation_6ed/Lab_data/chapter_1/Ch01InChap01/Ch01InChap01.dd \
+  > /tmp/timeline.body
 
 ls -lh /tmp/timeline.body
 head -n 5 /tmp/timeline.body
+```
 
 ---
 
