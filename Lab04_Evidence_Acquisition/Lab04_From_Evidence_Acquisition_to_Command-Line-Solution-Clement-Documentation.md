@@ -178,12 +178,12 @@ D:\VM_Lab\ICDFA_Labs\ICDFA Study Material\ACI801 Digital Evidence Collection\ACI
 ### Lab04_Fig13 — Tag applied to evidence item
 **Screenshot Filename:** Lab04_Screenshot_13.png
 
-!![Screenshot](Screenshots/Lab04_Fig12i_TagMenu.png)
+!![Screenshot](Screenshots/Lab04_Fig13_TagCreated.png)
 
 ### Lab04_Fig14 — Recover/Extract option
 **Screenshot Filename:** Lab04_Screenshot_14.png
 
-!![Screenshot](Screenshots/Lab04_Fig13_TagCreated.png)
+!![Screenshot](Screenshots/Lab04_Fig14_ExtractFile(s)View.png)
 
 ### Lab04_Fig15 — Recovery destination/confirmation
 **Screenshot Filename:** Lab04_Screenshot_15.png
@@ -193,12 +193,12 @@ D:\VM_Lab\ICDFA_Labs\ICDFA Study Material\ACI801 Digital Evidence Collection\ACI
 ### Lab04_Fig16 — Keyword search configuration
 **Screenshot Filename:** Lab04_Screenshot_16.png
 
-!![Screenshot](Screenshots/Lab04_Fig15_RecoveryExport.png)
+!![Screenshot](Screenshots/Lab04_Fig16_KeywordsSearch.png)
 
 ### Lab04_Fig17 — Keyword search results
 **Screenshot Filename:** Lab04_Screenshot_17.png
 
-!![Screenshot](Screenshots/Lab04_Fig16_KeywordResults.png)
+!![Screenshot](Screenshots/Lab04_Fig17_KeywordResults.png)
 
 ### Lab04_Fig18 — Generating Autopsy report
 **Screenshot Filename:** Lab04_Screenshot_18.png
@@ -209,6 +209,7 @@ D:\VM_Lab\ICDFA_Labs\ICDFA Study Material\ACI801 Digital Evidence Collection\ACI
 **Screenshot Filename:** Lab04_Screenshot_19.png
 
 !![Screenshot](Screenshots/Lab04_Fig18_GenerateReport.png)
+!![Screenshot](Screenshots/Lab04_Fig18i_GenerateReport.png)
 
 ## Part 3–4 — TSK (CLI)
 
