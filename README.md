@@ -35,7 +35,7 @@ number systems is essential for forensic investigations.
 - Hashing and evidence integrity
 
 📄 **Full Step‑by‑Step Documentation:**  
-[Documentation.md](./Lab01_NumberSystems-Solution-Clement-Documentation.md)
+[Documentation.md](./Lab01_NumberSystems/Lab01_NumberSystems-Solution-Clement-Documentation.md)
 
 📑 **Formal Lab Report (with screenshots):**  
 Lab01_NumberSystems_Report_WithScreenshots.docx
@@ -55,7 +55,7 @@ MBR analysis using hex‑level offsets.
 - File system identification
 
 📄 **Full Step‑by‑Step Documentation:**  
-[Documentation.md](./Lab02_PC_Introduction_Solution-Clement-Documentation.md)
+[Documentation.md](./Lab02_PC_Intro/Lab02_PC_Introduction_Solution-Clement-Documentation.md)
 
 📑 **Formal Lab Report:**  
 Lab02_PC_Introduction_Report_WithScreenshots.docx
@@ -75,7 +75,7 @@ remote evidence acquisition.
 - Netcat for remote evidence acquisition
 
 📄 **Full Step‑by‑Step Documentation:**  
-[Documentation.md](./Lab3_LinuxCommandLine-Solution-Clement-Documentation.md)
+[Documentation.md](./Lab03_Linux_CommandLine/Lab03_LinuxCommandLine-Solution-Clement-Documentation.md)
 
 📑 **Formal Lab Report:**  
 Lab3_LinuxCommandLine_Report_with_Screenshots.docx
@@ -118,7 +118,7 @@ searches, and generate a forensic report.
 - Read-only image handling for safe inspection
 
 📄 **Full Step‑by‑Step Documentation:**  
-[documentation.md](./Lab04_From_Evidence_Acquisition_to_Command-Line-Solution-Clement-Documentation.md)
+[documentation.md](./Lab04_Evidence_Acquisition/Lab04_From_Evidence_Acquisition_to_Command-Line-Solution-Clement-Documentation.md)
 
 📑 **Formal Lab Report:**  
 Lab 4 – From_Evidence_Acquisition_to_Command-line_with_screenshots
