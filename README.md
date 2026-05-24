@@ -21,7 +21,7 @@ documented, preserved, and reviewed.
 
 ## 📘 Repository Contents
 
-### ✅ Lab 01 – Number Systems and Digital Forensics Fundamentals
+### Lab 01 – Number Systems and Digital Forensics Fundamentals
 This lab introduces how computers represent and store data, and why understanding
 number systems is essential for forensic investigations.
 
@@ -33,14 +33,14 @@ number systems is essential for forensic investigations.
 - Hashing and evidence integrity
 
 📄 **Full Step‑by‑Step Documentation:**  
-[`documentation.md`](./documentation.md)
+[documentation.md](./documentation.md)
 
 📑 **Formal Lab Report (with screenshots):**  
-`Lab01_NumberSystems_Report_WithScreenshots.docx`
+Lab01_NumberSystems_Report_WithScreenshots.docx
 
 ---
 
-### ✅ Lab 02 – PC Introduction and Disk Analysis
+### Lab 02 – PC Introduction and Disk Analysis
 This lab focuses on PC architecture, disk structures, partition tables, and manual
 MBR analysis using hex‑level offsets.
 
@@ -52,12 +52,15 @@ MBR analysis using hex‑level offsets.
 - Hex → decimal → GB size calculations
 - File system identification
 
+📄 **Full Step‑by‑Step Documentation:**  
+[documentation.md](./documentation.md)
+
 📑 **Formal Lab Report:**  
-`Lab02_PC_Introduction_Report_WithScreenshots.docx`
+Lab02_PC_Introduction_Report_WithScreenshots.docx
 
 ---
 
-### ✅ Lab 03 – Linux Command Line Mastery for Digital Forensics
+### Lab 03 – Linux Command Line Mastery for Digital Forensics
 This lab emphasizes Linux command‑line skills required for forensic analysis and
 remote evidence acquisition.
 
@@ -69,8 +72,11 @@ remote evidence acquisition.
 - Standard input/output redirection
 - Netcat for remote evidence acquisition
 
+📄 **Full Step‑by‑Step Documentation:**  
+[documentation.md](./documentation.md)
+
 📑 **Formal Lab Report:**  
-`Lab3_LinuxCommandLine_Report_with_Screenshots.docx`
+Lab3_LinuxCommandLine_Report_with_Screenshots.docx
 
 ---
 
@@ -90,6 +96,54 @@ remote evidence acquisition.
 - Analyze disk structures using hex‑level offsets
 - Verify evidence integrity using cryptographic hashes
 - Document forensic procedures in a professional, reproducible manner
+
+---
+
+## 📌 Disclaimer
+This repository is intended for **educational and academic purposes only**.
+All labs were performed in controlled environments using test data and virtual machines.
+
+---
+
+### Lab 04 – Autopsy & Sleuth Kit (TSK) Disk Image Analysis
+This lab focuses on examining a forensic disk image using Autopsy and Sleuth Kit
+to validate evidence integrity, locate and recover deleted files, perform keyword
+searches, and generate a forensic report.
+
+**Topics covered:**
+- Digital investigation workflow (acquire image, examine, analyze, report)
+- Hash verification to confirm evidence integrity
+- Creating an Autopsy case and adding a disk image
+- Identifying and recovering deleted files
+- Tagging artifacts for reporting
+- Keyword searching and reviewing results
+- Generating an Autopsy report
+- Basic TSK analysis and recovery commands (mmls, fsstat, fls, istat, icat, blkls, blkcat)
+- Read-only image handling for safe inspection
+
+📄 **Full Step‑by‑Step Documentation:**  
+[documentation.md](./documentation.md)
+
+📑 **Formal Lab Report:**  
+Lab 4 – From_Evidence_Acquisition_to_Command-line_with_screenshots
+
+---
+
+## 🧪 Tools and Environment
+- Autopsy
+- The Sleuth Kit (TSK)
+- Forensic disk image file (DD image)
+- Hashing utilities (for integrity verification)
+- Linux environment/terminal tools for analysis and recovery
+
+---
+
+## 🎯 Learning Outcomes
+- Explain the stages of a digital forensic investigation from acquisition to reporting
+- Validate evidence integrity using cryptographic hashes
+- Use Autopsy to find deleted files, tag artifacts, and generate a report
+- Use TSK commands to examine partitions/file systems and recover files from images
+- Document findings clearly with screenshots and reproducible steps
 
 ---
 
