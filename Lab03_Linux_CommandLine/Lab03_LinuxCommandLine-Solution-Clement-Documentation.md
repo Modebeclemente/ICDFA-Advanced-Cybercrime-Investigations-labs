@@ -71,7 +71,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part1_1_pwd.png
 
-![Pwd](Part1_1_pwd.png)
+![Pwd](Screenshots/Part1_1_pwd.png)
 
 ---
 
@@ -79,7 +79,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part1_2_inode.png
 
-![Inode](Part1_2_inode.png)
+![Inode](Screenshots/Part1_2_inode.png)
 
 ---
 
@@ -87,7 +87,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part1_3_disk.png
 
-![Disk](Part1_3_disk.png)
+![Disk](Screenshots/Part1_3_disk.png)
 
 ---
 
@@ -95,11 +95,11 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part1_4_create_folder.png
 
-![Create Folder](Part1_4_create_folder.png)
+![Create Folder](Screenshots/Part1_4_create_folder.png)
 
 **Screenshot Filename:** Part1_5_cd.png
 
-![Cd](Part1_5_cd.png)
+![Cd](Screenshots/Part1_5_cd.png)
 
 ---
 
@@ -107,7 +107,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part1_6_echo.png
 
-![Echo](Part1_6_echo.png)
+![Echo](Screenshots/Part1_6_echo.png)
 
 ---
 
@@ -115,7 +115,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part1_7_copy.png
 
-![Copy](Part1_7_copy.png)
+![Copy](Screenshots/Part1_7_copy.png)
 
 ---
 
@@ -123,7 +123,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part1_8_rename.png
 
-![Rename](Part1_8_rename.png)
+![Rename](Screenshots/Part1_8_rename.png)
 
 ---
 
@@ -131,7 +131,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part1_9_permissions.png
 
-![Permissions](Part1_9_permissions.png)
+![Permissions](Screenshots/Part1_9_permissions.png)
 
 ---
 
@@ -139,7 +139,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part2_1_grep.png
 
-![Grep](Part2_1_grep.png)
+![Grep](Screenshots/Part2_1_grep.png)
 
 ---
 
@@ -147,7 +147,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part2_2_search_etc.png
 
-![Search Etc](Part2_2_search_etc.png)
+![Search Etc](Screenshots/Part2_2_search_etc.png)
 
 ---
 
@@ -155,7 +155,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part2_3_ping.png
 
-![Ping](Part2_3_ping.png)
+![Ping](Screenshots/Part2_3_ping.png)
 
 ---
 
@@ -163,7 +163,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part2_4_ports.png
 
-![Ports](Part2_4_ports.png)
+![Ports](Screenshots/Part2_4_ports.png)
 
 ---
 
@@ -171,7 +171,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part2_5_wget.png
 
-![Wget](Part2_5_wget.png)
+![Wget](Screenshots/Part2_5_wget.png)
 
 ---
 
@@ -179,7 +179,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part3_1_stdout.png
 
-![Stdout](Part3_1_stdout.png)
+![Stdout](Screenshots/Part3_1_stdout.png)
 
 ---
 
@@ -187,11 +187,11 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part3_2_error_content.png
 
-![Error Content](Part3_2_error_content.png)
+![Error Content](Screenshots/Part3_2_error_content.png)
 
 **Screenshot Filename:** Part3_2_error_created.png
 
-![Error Created](Part3_2_error_created.png)
+![Error Created](Screenshots/Part3_2_error_created.png)
 
 ---
 
@@ -199,7 +199,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part4_1_listener.png
 
-![Listener](Part4_1_listener.png)
+![Listener](Screenshots/Part4_1_listener.png)
 
 ---
 
@@ -207,7 +207,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part4_2_sender.png
 
-![Sender](Part4_2_sender.png)
+![Sender](Screenshots/Part4_2_sender.png)
 
 ---
 
@@ -215,7 +215,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part4_3_verify.png
 
-![Verify](Part4_3_verify.png)
+![Verify](Screenshots/Part4_3_verify.png)
 
 ---
 
@@ -223,7 +223,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part5_1_windows_file_created.png
 
-![Windows File Created](Part5_1_windows_file_created.png)
+![Windows File Created](Screenshots/Part5_1_windows_file_created.png)
 
 ---
 
@@ -231,7 +231,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part5_2_kali_listener.png
 
-![Kali Listener](Part5_2_kali_listener.png)
+![Kali Listener](Screenshots/Part5_2_kali_listener.png)
 
 ---
 
@@ -239,7 +239,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part5_3_windows_send.png
 
-![Windows Send](Part5_3_windows_send.png)
+![Windows Send](Screenshots/Part5_3_windows_send.png)
 
 ---
 
@@ -247,7 +247,7 @@ The lab also included remote evidence acquisition concepts using Netcat-style to
 
 **Screenshot Filename:** Part5_4_verify.png
 
-![Verify](Part5_4_verify.png)
+![Verify](Screenshots/Part5_4_verify.png)
 
 ---
 
