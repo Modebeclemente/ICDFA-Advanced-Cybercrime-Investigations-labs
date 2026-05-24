@@ -267,42 +267,43 @@ D:\VM_Lab\ICDFA_Labs\ICDFA Study Material\ACI801 Digital Evidence Collection\ACI
 ### Lab04_Fig30 — losetup --partscan attaching image (read-only)
 **Screenshot Filename:** Lab04_Screenshot_30.png
 
-!![Screenshot](Screenshots/Lab04_Fig27_INCOME_istat_Sectors.png)
+!![Screenshot](Screenshots/Lab04_Fig30_losetup_partscan.png)
 
 ### Lab04_Fig31 — lsblk output showing loop device mapping
 **Screenshot Filename:** Lab04_Screenshot_31.png
 
-!![Screenshot](Screenshots/Lab04_Fig28_placeholder.png)
+!![Screenshot](Screenshots/Lab04_Fig31_ListPartitions_lsblk.png)
 
 ### Lab04_Fig32 — Verifying loop device mapping
 **Screenshot Filename:** Lab04_Screenshot_32.png
 
-!![Screenshot](Screenshots/Lab04_Fig29_placeholder.png)
+!![Screenshot](Screenshots/Lab04_Fig32ii_Verify_Loop_Device_loop0.png)
 
 ### Lab04_Fig33 — Creating mount point directory
 **Screenshot Filename:** Lab04_Screenshot_33.png
 
-!![Screenshot](Screenshots/Lab04_Fig30_placeholder.png)
+!![Screenshot](Screenshots/Lab04_Fig32i_Create_Mount_Point_tmp_usb.png)
 
 ### Lab04_Fig34 — Mounting loop device read-only
 **Screenshot Filename:** Lab04_Screenshot_34.png
 
-!![Screenshot](Screenshots/Lab04_Fig31_placeholder.png)
+!![Screenshot](Screenshots/Lab04_Fig32_Mount_loop0_ReadOnly.png)
+!![Screenshot](Screenshots/Lab04_Fig32iii_Mount_loop0_to_tmp_usb.png)
 
 ### Lab04_Fig35 — Verifying mounted contents (ls)
 **Screenshot Filename:** Lab04_Screenshot_35.png
 
-!![Screenshot](Screenshots/Lab04_Fig32_placeholder.png)
+!![Screenshot](Screenshots/Lab04_Fig32iv_Verify_Mount_ls_tmp_usb.png)
 
 ### Lab04_Fig36 — Running tsk_gettimes (new command) and previewing output
 **Screenshot Filename:** Lab04_Screenshot_36.png
 
-!![Screenshot](Screenshots/Lab04_Fig33_placeholder.png)
+!![Screenshot](Screenshots/Lab04_Fig33_tsk_gettimes_Run_Verify_OutputPreview.png)
 
 ### Lab04_Fig37 — Unmounting and detaching loop device
 **Screenshot Filename:** Lab04_Screenshot_37.png
 
-!![Screenshot](Screenshots/Lab04_Fig34_placeholder.png)
+!![Screenshot](Screenshots/Lab04_Fig32iv_Unmount_Detach_loop0.png)
 
 ---
 
