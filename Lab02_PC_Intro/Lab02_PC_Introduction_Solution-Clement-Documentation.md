@@ -79,7 +79,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig01_WinHex_PhysicalMediaList.png
 
-![WinHex_PhysicalMediaList](Fig01_WinHex_PhysicalMediaList.png)
+![WinHex_PhysicalMediaList](Screenshots/Fig01_WinHex_PhysicalMediaList.png)
 
 ---
 
@@ -87,7 +87,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig02_MBR_Sector0.png
 
-![MBR_Sector0](Fig02_MBR_Sector0.png)
+![MBR_Sector0](Screenshots/Fig02_MBR_Sector0.png)
 
 ---
 
@@ -95,7 +95,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig03_Goto_01BE_PartitionTable.png
 
-![Goto_01BE_PartitionTable](Fig03_Goto_01BE_PartitionTable.png)
+![Goto_01BE_PartitionTable](Screenshots/Fig03_Goto_01BE_PartitionTable.png)
 
 ---
 
@@ -103,7 +103,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig04_Partition1_StartLBA_01C6.png
 
-![Partition1_StartLBA_01C6](Fig04_Partition1_StartLBA_01C6.png)
+![Partition1_StartLBA_01C6](Screenshots/Fig04_Partition1_StartLBA_01C6.png)
 
 ---
 
@@ -111,7 +111,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig05_Partition1_TotalSectors_01CA.png
 
-![Partition1_TotalSectors_01CA](Fig05_Partition1_TotalSectors_01CA.png)
+![Partition1_TotalSectors_01CA](Screenshots/Fig05_Partition1_TotalSectors_01CA.png)
 
 ---
 
@@ -119,7 +119,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig06_Partition2_StartLBA_01D6.png
 
-![Partiton2_StartLBA_01D6](Fig06_Partition2_StartLBA_01D6.png)
+![Partiton2_StartLBA_01D6](Screenshots/Fig06_Partition2_StartLBA_01D6.png)
 
 ---
 
@@ -127,7 +127,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig07_Partition2_TotalSectors_01DA.png
 
-![Partition2_TotalSectors_01DA](Fig07_Partition2_TotalSectors_01DA.png)
+![Partition2_TotalSectors_01DA](Screenshots/Fig07_Partition2_TotalSectors_01DA.png)
 
 ---
 
@@ -135,7 +135,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig08_VM_DiskPath_Metasploitable.png
 
-![VM_DiskPath_Metasploitable](Fig08_VM_DiskPath_Metasploitable.png)
+![VM_DiskPath_Metasploitable](Screenshots/Fig08_VM_DiskPath_Metasploitable.png)
 
 ---
 
@@ -143,19 +143,19 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig10_WinHex_OpenVMdisk_ReadOnly.png
 
-![WinHex_OpenVMdisk_ReadOnly](Fig10_WinHex_OpenVMdisk_ReadOnly.png)
+![WinHex_OpenVMdisk_ReadOnly](Screenshots/Fig10_WinHex_OpenVMdisk_ReadOnly.png)
 
 **Screenshot Filename:** Fig11_VM_Sector0_MBR.png
 
-![VM_Sector0_MBR](Fig11_VM_Sector0_MBR.png)
+![VM_Sector0_MBR](Screenshots/Fig11_VM_Sector0_MBR.png)
 
 **Screenshot Filename:** Fig12_VM_WinHex_LicenseRestriction.png
 
-![VM_WinHex_LicenseRestriction](Fig12_VM_WinHex_LicenseRestriction.png)
+![VM_WinHex_LicenseRestriction](Screenshots/Fig12_VM_WinHex_LicenseRestriction.png)
 
 **Screenshot Filename:** Fig13_RAW_Sector0.png
 
-![RAW_Sector0](Fig13_RAW_Sector0.png)
+![RAW_Sector0](Screenshots/Fig13_RAW_Sector0.png)
 
 ---
 
@@ -163,7 +163,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig14_RAW_P1_StartLBA_01C6.png
 
-![RAW_P1_StartLBA_01C6](Fig14_RAW_P1_StartLBA_01C6.png)
+![RAW_P1_StartLBA_01C6](Screenshots/Fig14_RAW_P1_StartLBA_01C6.png)
 
 ---
 
@@ -171,7 +171,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig15_RAW_P1_TotalSectors_01CA.png
 
-![RAW_P1_TotalSectors_01CA](Fig15_RAW_P1_TotalSectors_01CA.png)
+![RAW_P1_TotalSectors_01CA](Screenshots/Fig15_RAW_P1_TotalSectors_01CA.png)
 
 ---
 
@@ -179,7 +179,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig16_RAW_P2_StartLBA_01D6.png
 
-![RAW_P2_StartLBA_01D6](Fig16_RAW_P2_StartLBA_01D6.png)
+![RAW_P2_StartLBA_01D6](Screenshots/Fig16_RAW_P2_StartLBA_01D6.png)
 
 ---
 
@@ -187,7 +187,7 @@ The main findings were that partition-size calculations match expected sizes whe
 
 **Screenshot Filename:** Fig17_RAW_P2_TotalSectors_01DA.png
 
-![RAW_P2_TotalSectors_01DA](Fig17_RAW_P2_TotalSectors_01DA.png)
+![RAW_P2_TotalSectors_01DA](Screenshots/Fig17_RAW_P2_TotalSectors_01DA.png)
 
 ---
 
