@@ -173,7 +173,7 @@ D:\VM_Lab\ICDFA_Labs\ICDFA Study Material\ACI801 Digital Evidence Collection\ACI
 **Screenshot Filename:** Lab04_Screenshot_12.png
 
 !![Screenshot](Screenshots/Lab04_Fig12_TagMenu.png)
-!![Screenshot](/Screenshots/Lab04_Fig12i_TagMenu.png)
+!![Screenshot](Screenshots/Lab04_Fig12i_TagMenu.png)
 
 ### Lab04_Fig13 — Tag applied to evidence item
 **Screenshot Filename:** Lab04_Screenshot_13.png
