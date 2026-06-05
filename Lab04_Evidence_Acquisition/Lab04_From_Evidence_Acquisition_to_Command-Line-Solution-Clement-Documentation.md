@@ -110,8 +110,6 @@ D:\VM_Lab\ICDFA_Labs\ICDFA Study Material\ACI801 Digital Evidence Collection\ACI
 
 # Screenshots and Evidence (Placeholders)
 
-> **Note:** The original .docx contains embedded figures. This .txt version preserves the end-to-end structure using screenshot placeholders with consistent filenames.
-
 ## Part 2 — Autopsy (GUI)
 
 ### Lab04_Fig01 — Evidence image placed in workspace folder
